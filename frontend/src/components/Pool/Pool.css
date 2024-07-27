@@ -1,0 +1,73 @@
+.pool-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #7EC8E3;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.pool-title {
+  font-size: 2rem;
+  color: #2D3E50;
+  margin-bottom: 10px;
+}
+
+.pool-description {
+  font-size: 1rem;
+  color: #2D3E50;
+  margin-bottom: 20px;
+}
+
+.pool-input {
+  
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #2D3E50;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+
+}
+
+.pool-input:focus {
+  border-color: #F76C6C;
+}
+
+.pool-button {
+  background-color: #F76C6C;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pool-button:hover {
+  background-color: #FFD700;
+}
+
+.pool-button.pending {
+  background-color: #F76C6C;
+  cursor: not-allowed;
+}
+
+.pool-button.success {
+  background-color: #4CAF50;
+  animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}

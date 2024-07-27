@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #5F9EA0;
+  color: #fff;
+  font-family: 'Comic Sans MS', cursive; /* Just for fun! Feel free to change to a different playful font */
+}
+
+.nav h1 {
+  font-size: 1.8rem;
+}
+
+.hello {
+  background-color: #FFD700 !important;
+  color: #333 !important;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hello:hover {
+  background-color: #000000 !important;
+}
