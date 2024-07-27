@@ -1,3 +1,7 @@
+## Contract Address
+- Governor token: 0x3250deA5d8034f4747f3F3a8C5afb8b690c356e6
+- Govermor contract: 0xb717937F54c29a66Fc1832e6D484b6399F892DC0
+
 # DAO-Governed Crowdfunding Platform
 
 Welcome to the DAO-Governed Crowdfunding Platform, a decentralized and transparent platform designed to support social causes aimed at poverty reduction and sustainable development. This platform leverages blockchain technology and Decentralized Autonomous Organizations (DAOs) to ensure secure, transparent, and community-driven fundraising and project management.
