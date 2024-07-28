@@ -6,7 +6,7 @@ import './Pool.css';
 import { 
   useSendTransaction, 
   useWaitForTransactionReceipt
-} from 'wagmi'
+} from 'wagmi';
 
 function Pool() {
   const CONTRACT_ADDRESS = "0x7199D548f1B30EA083Fe668202fd5E621241CC89";
@@ -29,12 +29,11 @@ function Pool() {
   } = useSendTransaction();
   
   async function fund() { 
-
     sendTransaction(
       { 
         to: CONTRACT_ADDRESS, 
         value: parseEther(amount) 
-      })
+      });
   } 
 
   // const { data, isLoading, isSuccess, isError, write } = useContractWrite(config);
@@ -42,15 +41,18 @@ function Pool() {
   const handleButtonClick = async () => {
     setTransactionPending(true);
     // await write?.();
-    await fund()
+    await fund();
     setTransactionPending(false);
   };
 
   return (
     <div className="pool-container">
-      <h2 className="pool-title">Latest proposal</h2>
+      <h2 className="pool-title">Latest Proposal</h2>
       <p className="pool-description">
-        🚀
+        <strong>Proposal Summary:</strong> This proposal seeks to fund the installation of solar energy systems in 10 rural villages in Kenya. The goal is to provide sustainable and reliable electricity to communities that currently lack access to the national grid. This project will improve the quality of life, support local economic development, and contribute to environmental sustainability.
+      </p>
+      <p className="pool-description">
+        <strong>Submitted By:</strong> Green Energy DAO
       </p>
       <input
         type="text"

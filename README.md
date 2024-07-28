@@ -1,6 +1,6 @@
 ## Contract Address
 - Governor token: 0x3250deA5d8034f4747f3F3a8C5afb8b690c356e6
-- Govermor contract: 0xb717937F54c29a66Fc1832e6D484b6399F892DC0
+- Governor contract: 0xb717937F54c29a66Fc1832e6D484b6399F892DC0
 
 # DAO-Governed Crowdfunding Platform
 
